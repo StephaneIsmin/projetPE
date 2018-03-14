@@ -1,0 +1,22 @@
+Bases de Git : 
+1) avoir un compte git hub
+2) configuration de base :
+	git config --global color.diff auto
+	git config --global.status.auto
+	git config --global.branch auto
+
+3) donner a git notre pseduo et mail :
+	git config --global user.name "ton_nom"
+	git config --global user.mail ton_mail 
+
+4) A faire une seule fois se placer dans le dossier (clic droit - git bash here) pour synchroniser notre dossier sur l'ordi et notre dossier en ligne :
+	git clone https://github.com/StephaneIsmin/projetPE.git
+
+5) quand on a modifié des fichiers et qu'on veut mettre à jour notre dossier commun :
+	git status : permet de voir quels fichier ont été modifiés ou ajoutés
+	--> git add --all
+	--> git commit 
+	--> git push 
+
+6) pour récupérer la dernière version du projet (après que l'autre a upload une autre version uniquement)
+	--> git pull
